@@ -1,13 +1,3 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Linux-Guide-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/github/stars/jeevanjoseph03
-/Linux_Guide?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/jeevanjoseph03
-/Linux_Guide?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
-</p>
-
 # 🐧 Linux for Cloud & AI Engineers — The Ultimate Practical Guide
 
 A complete, beginner-friendly, hands-on guide to Linux built specifically for **Cloud Engineers**, **AI/ML Engineers**, **Backend Developers**, and **students preparing for internships**.
@@ -467,9 +457,25 @@ After this Linux guide, continue to:
 ➡ Topic 4 — Docker Compose
 ➡ Topic 5 — Networking Basics
 
+---
 
+# ⭐ Support the Project
 
+If you found this guide helpful, please **give this repository a star** ⭐  
+It helps others discover it and motivates me to create more high-quality guides!
 
+---
+# 👨‍💻 Author
 
+**Jeevan George Joseph**  
+AI Agent Developer | LLM & RAG Enthusiast  
+
+📧 Email: jeevanjoseph.work@gmail.com   
+🔗 LinkedIn: [jeevanjoseph03](https://www.linkedin.com/in/jeevanjoseph03/) 
+🌐 Portfolio: jeevanjoseph.dev
+
+---
+# 📄 License
+MIT License © Jeevan George Joseph
 
 
