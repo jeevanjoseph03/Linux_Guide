@@ -396,6 +396,15 @@ systemctl status nginx
 ```
 
 ---
+## 📌 Example Linux Scripts
+All example scripts are located in the `/scripts` folder:
+
+- `install_packages.sh` — Install common tools
+- `system_health.sh` — Check CPU, RAM, disk, uptime
+- `setup_ai_environment.sh` — Install Python + AI packages
+- `monitor_logs.sh` — Stream logs from any service
+- `backup_folder.sh` — Backup any folder (with date)
+- `auto_start_server.sh` — Auto-start server using systemd
 
 ## 🚀 Mini Projects
 
