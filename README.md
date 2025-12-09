@@ -164,3 +164,48 @@ nano file.txt
 -vim (advanced)
 -nano (beginner-friendly)
 ```
+
+---
+
+# 🔍 Searching in Linux
+
+### Search inside files
+```bash
+grep "hello" file.txt
+grep -r "error" /var/log
+```
+### Search for files
+```bash
+find / -name "*.txt"
+```
+
+---
+
+# 🔐 Permissions & Ownership
+
+### Check file permissions
+```bash
+ls -l
+```
+#### Example output:
+```bash
+-rwxr--r--  user  group  file.sh
+```
+### Change permissions
+```bash
+chmod +x script.sh
+chmod 755 app
+chmod 644 data.txt
+```
+### Change owner
+```bash
+sudo chown user:group file.txt
+```
+
+---
+
+
+
+
+
+
