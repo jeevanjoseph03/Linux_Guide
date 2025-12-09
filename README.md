@@ -32,7 +32,7 @@ This is **pure practical Linux** — no useless theory.
 
 ---
 
-# 🧭 Table of Contents
+## 🧭 Table of Contents
 
 1. [What is Linux?](#what-is-linux)  
 2. [Linux File System Explained](#linux-file-system-explained)  
@@ -52,7 +52,7 @@ This is **pure practical Linux** — no useless theory.
 
 ---
 
-# Understanding Linux
+## Understanding Linux
 
 Linux is an open-source operating system that powers:
 
@@ -74,7 +74,7 @@ If you want to become a **Cloud Engineer** or **AI Engineer**, learning Linux is
 
 ---
 
-# Linux File System
+## Linux File System
 
 The Linux directory structure is simple once you understand it:
 ```text
@@ -98,20 +98,20 @@ The Linux directory structure is simple once you understand it:
 
 ---
 
-# 🔧 Basic Commands
+## 🔧 Basic Commands
 
-###  Show current folder
+####  Show current folder
 
 ```bash
 pwd
 ```
-### List files
+#### List files
 ```bash
 ls
 ls -l
 ls -a
 ```
-### Change directory
+#### Change directory
 ```bash
 cd foldername
 cd ..
@@ -121,23 +121,23 @@ cd ~
 
 ---
 
-# 📁 File & Directory Management
+## 📁 File & Directory Management
 
-### Create files
+#### Create files
 ```bash
 touch file.txt
 ```
-### Copy files/folders
+#### Copy files/folders
 ```bash
 cp file1 file2
 cp -r folderA folderB
 ```
-### Move / rename
+#### Move / rename
 ```bash
 mv old.txt new.txt
 mv file.txt /home/user/
 ```
-### Delete
+#### Delete
 ```bash
 rm file.txt
 rm -r folder
@@ -146,20 +146,20 @@ rm -rf folder    # dangerous
 
 ---
 
-# 📖 Viewing & Editing Files
+## 📖 Viewing & Editing Files
 
-### View content
+#### View content
 ```bash
 cat file.txt
 head file.txt
 tail file.txt
 tail -f log.txt   # live logs
 ```
-### Best terminal editor: nano
+#### Best terminal editor: nano
 ```bash
 nano file.txt
 ```
-### Other editors:
+#### Other editors:
 ```bash
 -vim (advanced)
 -nano (beginner-friendly)
@@ -167,23 +167,23 @@ nano file.txt
 
 ---
 
-# 🔍 Searching in Linux
+## 🔍 Searching in Linux
 
-### Search inside files
+#### Search inside files
 ```bash
 grep "hello" file.txt
 grep -r "error" /var/log
 ```
-### Search for files
+#### Search for files
 ```bash
 find / -name "*.txt"
 ```
 
 ---
 
-# 🔐 Permissions & Ownership
+## 🔐 Permissions & Ownership
 
-### Check file permissions
+#### Check file permissions
 ```bash
 ls -l
 ```
@@ -191,129 +191,129 @@ ls -l
 ```bash
 -rwxr--r--  user  group  file.sh
 ```
-### Change permissions
+#### Change permissions
 ```bash
 chmod +x script.sh
 chmod 755 app
 chmod 644 data.txt
 ```
-### Change owner
+#### Change owner
 ```bash
 sudo chown user:group file.txt
 ```
 
 ---
 
-# 👥 User & Group Management
+## 👥 User & Group Management
 
-### Check current user
+#### Check current user
 ```bash
 whoami
 ```
-### Add user
+#### Add user
 ```bash
 sudo adduser devuser
 ```
-### Switch user
+#### Switch user
 ```bash
 su - devuser
 ```
-### Add user to group
+#### Add user to group
 ```bash
 sudo usermod -aG sudo devuser
 ```
 
 ---
 
-# 🧵 Process Management
+## 🧵 Process Management
 
-### Show running processes
+#### Show running processes
 ```bash
 ps aux
 top
 htop       # better version
 ```
-### Kill a process
+#### Kill a process
 ```bash
 kill <PID>
 kill -9 <PID>     # force kill
 ```
-### Run process in background
+#### Run process in background
 ```bash
 command &
 ```
-### Bring to foreground
+#### Bring to foreground
 ```bash
 fg
 ```
 
 ---
 
-# 📦 Package Management
+## 📦 Package Management
 
-### Update system
+#### Update system
 ```bash
 sudo apt update
 sudo apt upgrade
 ```
-### Install software
+#### Install software
 ```bash
 sudo apt install python3
 sudo apt install nginx
 ```
-### Remove package
+#### Remove package
 ```bash
 sudo apt remove <package>
 ```
 
 ---
 
-#  🌐 Networking Commands
+##  🌐 Networking Commands
 
-### Check internet
+#### Check internet
 ```bash
 ping google.com
 ```
-### Download files
+#### Download files
 ```bash
 wget URL
 curl URL
 ```
-### Check IP
+#### Check IP
 ```bash
 ifconfig        # older systems
 ip a            # modern
 ```
-### Check open ports
+#### Check open ports
 ```bash
 netstat -tulpn
 ss -tulpn       # modern replacement
 ```
-### Test APIs
+#### Test APIs
 ```bash
 curl http://localhost:8000/health
 ```
 
 ---
 
-# 🌱 Environment Variables
+## 🌱 Environment Variables
 
-### Show a variable
+#### Show a variable
 ```bash
 echo $PATH
 ```
-### Create a variable
+#### Create a variable
 ```bash
 export API_KEY="12345"
 ```
-### Make variables persistent
+#### Make variables persistent
 ###### Add to:
 ```bash
 ~/.bashrc
 ~/.profile
 
 ```
-### Load .env file
+#### Load .env file
 ```bash
 source .env
 
@@ -321,37 +321,37 @@ source .env
 
 ---
 
-# 🤖 Shell Scripting
+## 🤖 Shell Scripting
 
-### Create a script
+#### Create a script
 ```bash
 nano setup.sh
 ```
-### Add:
+#### Add:
 ```bash
 #!/bin/bash
 echo "Installing project..."
 pip install -r requirements.txt
 ```
-### Make executable
+#### Make executable
 ```bash
 chmod +x setup.sh
 ```
-### Run
+#### Run
 ```bash
 ./setup.sh
 ```
 
 ---
 
-# 📊 Logs & Monitoring
+## 📊 Logs & Monitoring
 
-### Check system logs
+#### Check system logs
 ```bash
 cd /var/log
 ls
 ```
-### View logs
+#### View logs
 ```bash
 tail -f syslog
 journalctl -u nginx
@@ -359,47 +359,47 @@ journalctl -u nginx
 
 ---
 
-# 💾 Disk & Memory Management
+## 💾 Disk & Memory Management
 
-### Check disk usage
+#### Check disk usage
 ```bash
 df -h
 ```
-### Check memory usage
+#### Check memory usage
 ```bash
 free -h
 ```
-### Check folder size
+#### Check folder size
 ```bash
 du -sh *
 ```
 
 ---
 
-# ⚙️ System Services
+## ⚙️ System Services
 
-### Start service
+#### Start service
 ```bash
 sudo systemctl start nginx
 ```
-### Stop service
+#### Stop service
 ```bash
 sudo systemctl stop nginx
 ```
-### Enable on boot
+#### Enable on boot
 ```bash
 sudo systemctl enable nginx
 ```
-### Check status
+#### Check status
 ```bash
 systemctl status nginx
 ```
 
 ---
 
-# 🚀 Mini Projects
+## 🚀 Mini Projects
 
-### Deploy a Simple App on a Linux Server (EC2)
+#### Deploy a Simple App on a Linux Server (EC2)
 1. SSH into EC2
 2. Install Python
 3. Run FastAPI app
@@ -407,27 +407,27 @@ systemctl status nginx
 
 ---
 
-# 🧪 Exercises
+## 🧪 Exercises
 
-### Beginner
+#### Beginner
  - Create folders + files
  - Move files
  - Delete safely
  - Use grep to find words
    
-### Intermediate
+#### Intermediate
  - Change permissions
  - Create shell scripts
  - Monitor processes
    
-### Advanced
+#### Advanced
  - Host a simple HTTP server
  - Use cron jobs
  - Manage systemd services
 
 ---
 
-# ⚡ Cheatsheet
+## ⚡ Cheatsheet
 
  - pwd                 → show current directory  
  - ls -l               → detailed file list  
@@ -448,7 +448,7 @@ systemctl status nginx
 
 ---
    
-# 🎯 Next Steps
+## 🎯 Next Steps
 
 After this Linux guide, continue to:
 
@@ -459,13 +459,13 @@ After this Linux guide, continue to:
 
 ---
 
-# ⭐ Support the Project
+## ⭐ Support the Project
 
 If you found this guide helpful, please **give this repository a star** ⭐  
 It helps others discover it and motivates me to create more high-quality guides!
 
 ---
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Jeevan George Joseph**  
 AI Agent Developer | LLM & RAG Enthusiast  
@@ -475,7 +475,7 @@ AI Agent Developer | LLM & RAG Enthusiast
 🌐 Portfolio: jeevanjoseph.dev
 
 ---
-# 📄 License
+## 📄 License
 MIT License © Jeevan George Joseph
 
 
