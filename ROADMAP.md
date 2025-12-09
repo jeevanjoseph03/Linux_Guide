@@ -340,15 +340,13 @@ After this topic, continue your Cloud + AI path with:
 If you found this roadmap helpful, please **give this repository a star** ⭐
 It helps others discover it and motivates me to create more high-quality guides!
 
-
 ## 👨‍💻 Author
 
-**Jeevan George Joseph**
-AI Agent Developer | LLM & RAG Enthusiast
+**Jeevan George Joseph** *AI Agent Developer | LLM & RAG Enthusiast*
 
-- 📧 Email: jeevanjoseph.work@gmail.com
-- 🔗 LinkedIn: [jeevanjoseph03](https://www.linkedin.com/in/jeevanjoseph03/)
-- 🌐 Portfolio: [jeevanjoseph.dev](https://jeevanjoseph.dev/)
+- 📧 **Email:** jeevanjoseph.work@gmail.com
+- 🔗 **LinkedIn:** [jeevanjoseph03](https://www.linkedin.com/in/jeevanjoseph03/)
+- 🌐 **Portfolio:** [jeevanjoseph.dev](https://jeevanjoseph.dev/)
 
 ## 📄 License
 MIT License © Jeevan George Joseph
