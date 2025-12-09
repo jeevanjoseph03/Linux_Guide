@@ -296,5 +296,160 @@ curl http://localhost:8000/health
 
 ---
 
+# 🌱 Environment Variables
+
+### Show a variable
+```bash
+echo $PATH
+```
+### Create a variable
+```bash
+export API_KEY="12345"
+```
+### Make variables persistent
+###### Add to:
+```bash
+~/.bashrc
+~/.profile
+
+```
+### Load .env file
+```bash
+source .env
+
+```
+
+---
+
+# 🤖 Shell Scripting
+
+### Create a script
+```bash
+nano setup.sh
+```
+### Add:
+```bash
+#!/bin/bash
+echo "Installing project..."
+pip install -r requirements.txt
+```
+### Make executable
+```bash
+chmod +x setup.sh
+```
+### Run
+```bash
+./setup.sh
+```
+
+---
+
+# 📊 Logs & Monitoring
+
+### Check system logs
+```bash
+cd /var/log
+ls
+```
+### View logs
+```bash
+tail -f syslog
+journalctl -u nginx
+```
+
+---
+
+# 💾 Disk & Memory Management
+
+### Check disk usage
+```bash
+df -h
+```
+### Check memory usage
+```bash
+free -h
+```
+### Check folder size
+```bash
+du -sh *
+```
+
+---
+
+# ⚙️ System Services
+
+### Start service
+```bash
+sudo systemctl start nginx
+```
+### Stop service
+```bash
+sudo systemctl stop nginx
+```
+### Enable on boot
+```bash
+sudo systemctl enable nginx
+```
+### Check status
+```bash
+systemctl status nginx
+```
+
+---
+
+# 🚀 Mini Projects
+
+### Deploy a Simple App on a Linux Server (EC2)
+1. SSH into EC2
+2. Install Python
+3. Run FastAPI app
+4. Keep it running using systemctl
+
+---
+
+# 🧪 Exercises
+
+### Beginner
+ - Create folders + files
+ - Move files
+ - Delete safely
+ - Use grep to find words
+   
+### Intermediate
+ - Change permissions
+ - Create shell scripts
+ - Monitor processes
+   
+### Advanced
+ - Host a simple HTTP server
+ - Use cron jobs
+ - Manage systemd services
+
+---
+
+# ⚡ Cheatsheet
+
+ - pwd                 → show current directory  
+ - ls -l               → detailed file list  
+ - cd folder           → change directory  
+ - mkdir folder        → create folder  
+ - cp a b              → copy  
+ - mv a b              → move/rename  
+ - rm file             → delete  
+ - grep "x" file       → search  
+ - chmod +x script     → make executable  
+ - ps aux              → list processes  
+ - kill PID            → stop process  
+ - curl URL            → call API  
+ - nano file           → edit file  
+ - df -h               → disk usage  
+ - free -h             → memory usage  
+ - systemctl status    → check services  
+
+
+
+
+
+
 
 
