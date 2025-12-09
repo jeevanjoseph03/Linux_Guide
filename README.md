@@ -1,4 +1,4 @@
-# 🐧 Linux for Cloud & AI Engineers — The Ultimate Practical Guide
+# 🐧 Linux for Cloud & AI Engineers
 
 A complete, beginner-friendly, hands-on guide to Linux built specifically for **Cloud Engineers**, **AI/ML Engineers**, **Backend Developers**, and **students preparing for internships**.
 
