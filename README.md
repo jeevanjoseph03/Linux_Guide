@@ -465,7 +465,7 @@ It helps others discover it and motivates me to create more high-quality guides!
 
 ## 👨‍💻 Author
 
-**Jeevan George Joseph**
+**Jeevan George Joseph**<br>
 AI Agent Developer | LLM & RAG Enthusiast
 
 - 📧 Email: jeevanjoseph.work@gmail.com
