@@ -14,7 +14,6 @@ This guide teaches **real Linux skills** used daily when working with:
 
 If you are learning **Cloud + AI**, this is the Linux guide you’ve been waiting for.
 
----
 
 ## 🎯 What You Will Learn
 
@@ -30,7 +29,6 @@ By the end of this guide, you will confidently:
 
 This is **pure practical Linux** — no useless theory.
 
----
 
 ## 🧭 Table of Contents
 
@@ -50,7 +48,6 @@ This is **pure practical Linux** — no useless theory.
 14. [Linux Cheatsheet](#linux-cheatsheet)  
 15. [Next Steps](#next-steps)
 
----
 
 ## Understanding Linux
 
@@ -119,8 +116,6 @@ cd /
 cd ~
 ```
 
----
-
 ## 📁 File & Directory Management
 
 #### Create files
@@ -144,7 +139,6 @@ rm -r folder
 rm -rf folder    # dangerous
 ```
 
----
 
 ## 📖 Viewing & Editing Files
 
@@ -165,7 +159,6 @@ nano file.txt
 -nano (beginner-friendly)
 ```
 
----
 
 ## 🔍 Searching in Linux
 
@@ -179,7 +172,6 @@ grep -r "error" /var/log
 find / -name "*.txt"
 ```
 
----
 
 ## 🔐 Permissions & Ownership
 
@@ -202,8 +194,6 @@ chmod 644 data.txt
 sudo chown user:group file.txt
 ```
 
----
-
 ## 👥 User & Group Management
 
 #### Check current user
@@ -222,8 +212,6 @@ su - devuser
 ```bash
 sudo usermod -aG sudo devuser
 ```
-
----
 
 ## 🧵 Process Management
 
@@ -247,8 +235,6 @@ command &
 fg
 ```
 
----
-
 ## 📦 Package Management
 
 #### Update system
@@ -265,8 +251,6 @@ sudo apt install nginx
 ```bash
 sudo apt remove <package>
 ```
-
----
 
 ##  🌐 Networking Commands
 
@@ -294,8 +278,6 @@ ss -tulpn       # modern replacement
 curl http://localhost:8000/health
 ```
 
----
-
 ## 🌱 Environment Variables
 
 #### Show a variable
@@ -316,10 +298,7 @@ export API_KEY="12345"
 #### Load .env file
 ```bash
 source .env
-
 ```
-
----
 
 ## 🤖 Shell Scripting
 
@@ -342,8 +321,6 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
----
-
 ## 📊 Logs & Monitoring
 
 #### Check system logs
@@ -356,8 +333,6 @@ ls
 tail -f syslog
 journalctl -u nginx
 ```
-
----
 
 ## 💾 Disk & Memory Management
 
@@ -373,8 +348,6 @@ free -h
 ```bash
 du -sh *
 ```
-
----
 
 ## ⚙️ System Services
 
@@ -446,16 +419,15 @@ systemctl status nginx
  - free -h             → memory usage  
  - systemctl status    → check services
 
----
    
 ## 🎯 Next Steps
 
 After this Linux guide, continue to:
 
-➡ Topic 2 — Shell Scripting
-➡ Topic 3 — Docker
-➡ Topic 4 — Docker Compose
-➡ Topic 5 — Networking Basics
+- Topic 2 — Shell Scripting
+- Topic 3 — Docker
+- Topic 4 — Docker Compose
+- Topic 5 — Networking Basics
 
 ---
 
@@ -464,7 +436,7 @@ After this Linux guide, continue to:
 If you found this guide helpful, please **give this repository a star** ⭐  
 It helps others discover it and motivates me to create more high-quality guides!
 
----
+
 ## 👨‍💻 Author
 
 **Jeevan George Joseph**  
@@ -474,7 +446,7 @@ AI Agent Developer | LLM & RAG Enthusiast
 🔗 LinkedIn: [jeevanjoseph03](https://www.linkedin.com/in/jeevanjoseph03/) 
 🌐 Portfolio: jeevanjoseph.dev
 
----
+
 ## 📄 License
 MIT License © Jeevan George Joseph
 
