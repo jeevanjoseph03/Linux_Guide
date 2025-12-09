@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-Guide-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/jeevanjoseph03
+/Linux_Guide?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/jeevanjoseph03
+/Linux_Guide?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
+</p>
+
 # 🐧 Linux for Cloud & AI Engineers — The Ultimate Practical Guide
 
 A complete, beginner-friendly, hands-on guide to Linux built specifically for **Cloud Engineers**, **AI/ML Engineers**, **Backend Developers**, and **students preparing for internships**.
@@ -444,8 +454,18 @@ systemctl status nginx
  - nano file           → edit file  
  - df -h               → disk usage  
  - free -h             → memory usage  
- - systemctl status    → check services  
+ - systemctl status    → check services
 
+---
+   
+# 🎯 Next Steps
+
+After this Linux guide, continue to:
+
+➡ Topic 2 — Shell Scripting
+➡ Topic 3 — Docker
+➡ Topic 4 — Docker Compose
+➡ Topic 5 — Networking Basics
 
 
 
