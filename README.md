@@ -82,14 +82,14 @@ If you want to work in Cloud + AI → **Linux mastery is non-negotiable**.
 
 # 📁 2. Linux File System (Understand This Once, Master Linux Forever)
 /
-├── /bin → Essential commands (ls, mv, cp)
-├── /usr → Installed user programs
-├── /etc → Configuration files
-├── /var → Logs, app data
+├── /bin  → Essential commands (ls, mv, cp)
+├── /usr  → Installed user programs
+├── /etc  → Configuration files
+├── /var  → Logs, app data
 ├── /home → User directories
 ├── /root → Admin user home
-├── /opt → Optional software (DBs, tools, servers)
-└── /tmp → Temporary files
+├── /opt  → Optional software (DBs, tools, servers)
+└── /tmp  → Temporary files
 
 
 The 3 most important for Cloud + AI:
