@@ -444,8 +444,7 @@ AI Agent Developer | LLM & RAG Enthusiast
 
 📧 Email: jeevanjoseph.work@gmail.com   
 🔗 LinkedIn: [jeevanjoseph03](https://www.linkedin.com/in/jeevanjoseph03/) 
-🌐 Portfolio: jeevanjoseph.dev
-
+🌐 Portfolio: [jeevanjoseph.dev](https://jeevanjoseph.dev/)
 
 ## 📄 License
 MIT License © Jeevan George Joseph
