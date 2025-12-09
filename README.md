@@ -187,7 +187,7 @@ find / -name "*.txt"
 ```bash
 ls -l
 ```
-#### Example output:
+###### Example output:
 ```bash
 -rwxr--r--  user  group  file.sh
 ```
@@ -204,8 +204,97 @@ sudo chown user:group file.txt
 
 ---
 
+# 👥 User & Group Management
 
+### Check current user
+```bash
+whoami
+```
+### Add user
+```bash
+sudo adduser devuser
+```
+### Switch user
+```bash
+su - devuser
+```
+### Add user to group
+```bash
+sudo usermod -aG sudo devuser
+```
 
+---
+
+# 🧵 Process Management
+
+### Show running processes
+```bash
+ps aux
+top
+htop       # better version
+```
+### Kill a process
+```bash
+kill <PID>
+kill -9 <PID>     # force kill
+```
+### Run process in background
+```bash
+command &
+```
+### Bring to foreground
+```bash
+fg
+```
+
+---
+
+# 📦 Package Management
+
+### Update system
+```bash
+sudo apt update
+sudo apt upgrade
+```
+### Install software
+```bash
+sudo apt install python3
+sudo apt install nginx
+```
+### Remove package
+```bash
+sudo apt remove <package>
+```
+
+---
+
+#  🌐 Networking Commands
+
+### Check internet
+```bash
+ping google.com
+```
+### Download files
+```bash
+wget URL
+curl URL
+```
+### Check IP
+```bash
+ifconfig        # older systems
+ip a            # modern
+```
+### Check open ports
+```bash
+netstat -tulpn
+ss -tulpn       # modern replacement
+```
+### Test APIs
+```bash
+curl http://localhost:8000/health
+```
+
+---
 
 
 
