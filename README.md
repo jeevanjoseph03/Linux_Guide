@@ -20,34 +20,34 @@ If you are learning **Cloud + AI**, this is the Linux guide you’ve been waitin
 
 By the end of this guide, you will confidently:
 
-- Navigate Linux systems like a power user  
-- Manage files, processes, permissions, and packages  
-- Debug and monitor running AI applications  
-- Configure cloud servers (EC2, Compute Engine, etc.)  
-- Use shell scripting to automate workflows  
-- Deploy AI/LLM apps on Linux machines  
-- Understand logs, system status, networking, and security basics  
+- Use Linux commands without confusion  
+- Navigate folders and files like a pro  
+- Manage permissions, processes, and packages  
+- Use networking commands to debug servers  
+- Write simple shell scripts  
+- Read logs and monitor system performance  
+- Use Linux for cloud deployments (AWS, Docker, EC2, AI servers)  
 
 This is **pure practical Linux** — no useless theory.
 
 ---
 
-## 🧭 Table of Contents
+# 🧭 Table of Contents
 
-1. [Understanding Linux](#understanding-linux)  
-2. [Linux File System](#linux-file-system)  
-3. [Essential Commands](#essential-commands)  
-4. [File Operations](#file-operations)  
-5. [Permissions & Ownership](#permissions--ownership)  
+1. [What is Linux?](#what-is-linux)  
+2. [Linux File System Explained](#linux-file-system-explained)  
+3. [Important Commands (with examples)](#important-commands-with-examples)  
+4. [File & Directory Operations](#file--directory-operations)  
+5. [Permissions (chmod & chown)](#permissions-chmod--chown)  
 6. [Process Management](#process-management)  
-7. [Networking Essentials](#networking-essentials)  
+7. [Networking Commands](#networking-commands)  
 8. [Package Management](#package-management)  
-9. [Shell Scripting](#shell-scripting)  
+9. [Shell Scripting Basics](#shell-scripting-basics)  
 10. [Environment Variables](#environment-variables)  
 11. [Logs & Monitoring](#logs--monitoring)  
 12. [Mini Projects](#mini-projects)  
-13. [Exercises](#exercises)  
-14. [Cheatsheet](#cheatsheet)  
+13. [Practice Exercises](#practice-exercises)  
+14. [Linux Cheatsheet](#linux-cheatsheet)  
 15. [Next Steps](#next-steps)
 
 ---
@@ -98,23 +98,69 @@ The Linux directory structure is simple once you understand it:
 
 ---
 
-# Essential Commands
+# 🔧 Basic Commands
 
-### 🔹 Navigation
+###  Show current folder
 
 ```bash
-pwd                # show current directory
-ls -l              # list files with details
-cd /path           # move into folder
-cd ..              # go up one level
+pwd
 ```
-### 🔹 Create & Delete
+### List files
+```bash
+ls
+ls -l
+ls -a
+```
+### Change directory
+```bash
+cd foldername
+cd ..
+cd /
+cd ~
+```
+
+---
+
+# 📁 File & Directory Management
+
+### Create files
 ```bash
 touch file.txt
-mkdir myproject
-rm file.txt
-rm -r myfolder
 ```
-### 🔹 Copy & Move
-cp a.txt b.txt
-mv oldname newname
+### Copy files/folders
+```bash
+cp file1 file2
+cp -r folderA folderB
+```
+### Move / rename
+```bash
+mv old.txt new.txt
+mv file.txt /home/user/
+```
+### Delete
+```bash
+rm file.txt
+rm -r folder
+rm -rf folder    # dangerous
+```
+
+---
+
+# 📖 Viewing & Editing Files
+
+### View content
+```bash
+cat file.txt
+head file.txt
+tail file.txt
+tail -f log.txt   # live logs
+```
+### Best terminal editor: nano
+```bash
+nano file.txt
+```
+### Other editors:
+```bash
+-vim (advanced)
+-nano (beginner-friendly)
+```
