@@ -434,6 +434,9 @@ All example scripts are located in the `/scripts` folder:
  - Use cron jobs
  - Manage systemd services
 
+#### See the hands-on exercises: [exercises/EXERCISES.md](exercises/EXERCISES.md)
+#### Solutions: [exercises/solutions/](exercises/solutions/)
+
 ---
 
 ## ⚡ Cheatsheet
